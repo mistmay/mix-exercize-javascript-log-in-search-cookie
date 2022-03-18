@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Giuseppe Marchesiello">
+    <meta name="description" content="Exercize Html Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Javascript Exercize</title>
+</head>
+
+<body>
+    <nav>
+        <div id="nav-left">
+            <h3>Background Color: <span>White</span></h3>
+            <button type="button" class="nav-btn" id="change-background-btn">Change Background</button>
+        </div>
+        <div id="nav-center">
+            <span></span>
+        </div>
+        <div id="nav-right">
+            <h3>Counter: <span>0</span></h3>
+            <button type="button" class="nav-btn" id="counter-plus-btn">+</button>
+            <button type="button" class="nav-btn" id="counter-minus-btn">-</button>
+            <button type="button" class="nav-btn" id="counter-reset-btn">Reset</button>
+        </div>
+    </nav>
+    <section>
+        <div>
+            <div id="expanding-container">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. In doloribus laboriosam aut ut earum iure
+                    impedit dolor mollitia pariatur accusamus excepturi quasi, deserunt eaque neque numquam quod
+                    corporis ullam tempora!
+                </p>
+                <div>
+                    <button type="button" class="nav-btn" id="expand-btn">Expand</button>
+                    <button type="button" class="nav-btn" id="reset-expand-form-btn">Reset Form</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div id="user-container">
+                <div class="user">
+                    <h1>Name</h1>
+                    <button type="button" class="nav-btn delete-btn">X</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <input type="text" placeholder="Search" id="searchbar">
+        </div>
+    </section>
+    <section>
+        <div>
+            <form>
+                <div>
+                    <label for="usename">Username</label>
+                    <input type="text" id="username">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                </div>
+                <p>Try Login: Bret : Gwenborough</p>
+                <button type="submit" id="login-btn" class="nav-btn">Log in</button>
+            </form>
+            <div id="todo-list">
+                <button type="button" class="nav-btn" id="logout-btn">Logout</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div id="word-counter-container">
+                <input type="text" id="word-input">
+                <button type="button" id="word-btn" class="nav-btn">Count Words</button>
+                <div></div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/index.js" type="module"></script>
+</body>
+
+</html>
